@@ -1,0 +1,23 @@
+body{
+    background-image: url(img1-100.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.btn1{
+    position: absolute;
+    transform: scale(150%);
+    left: 855px;
+    top:450px;
+    height: 60px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 130%;
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgb(105, 105, 105) 0px 3px 5px;
+}
+.btn1>a{
+    text-decoration: none;
+    color: white;
+}
