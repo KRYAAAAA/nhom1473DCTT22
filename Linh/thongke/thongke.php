@@ -39,7 +39,11 @@ $result = $conn->query($sql);
 </head>
 <body>
 <?php 
+<<<<<<< HEAD
 require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
+=======
+require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai.php'
+>>>>>>> 1729ad7 (đạt)
 ?>
 <form action="" method="post" style="flex:1;">
 <input type="text" name="loaipm" id="loaipm" style="position: fixed; visibility: hidden">
@@ -47,7 +51,11 @@ require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
 <div class="content">
     <div class="thanhtren">
         <h5 style="color: rgb(0, 172, 0);">THỐNG KÊ</h5>
+<<<<<<< HEAD
         <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+=======
+        <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+>>>>>>> 1729ad7 (đạt)
     </div>
     <div class="thanhctrl" style="padding-right: 50px;">
         <div style="display: flex; background-color: white; border: 1px solid rgb(207, 207, 207); " >
@@ -55,7 +63,11 @@ require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
             <button class="btn btn-success" style="height: 40px; border-radius: 0;" name = "btntimkiem">Tìm kiếm</button>
         </div> 
         <div>
+<<<<<<< HEAD
         <button class="btn btn-success" type="button"><a href="http://qlttb.com/QuanLyTrangThietBi/Linh/thanhly/thanhly.php">Thanh lý thiết bị hỏng</a></button>
+=======
+        <button class="btn btn-success" type="button"><a href="http://localhost/QuanLyTrangThietBi/Linh/thanhly/thanhly.php">Thanh lý thiết bị hỏng</a></button>
+>>>>>>> 1729ad7 (đạt)
         </div>
     </div>
     &nbsp Danh sách phiếu mượn

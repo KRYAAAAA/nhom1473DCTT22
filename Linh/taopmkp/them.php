@@ -64,7 +64,11 @@ if (isset($_POST["phong"]) && isset($_POST["tuan"]) && isset($_POST["thu"]) && i
             echo "<script>window.location.href = '../../Hieu/muontra_user/muontra_user.php';</script>";
         }else{
             echo "<script>alert('Phòng ".$phong."Đã được mượn vào :".$checkkq."')</script>";
+<<<<<<< HEAD
             echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/taopmkp/taopm_kp.php';</script>";
+=======
+            echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/taopmkp/taopm_kp.php';</script>";
+>>>>>>> 1729ad7 (đạt)
             
         }  
     } catch (Exception $e) {

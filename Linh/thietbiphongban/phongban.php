@@ -11,7 +11,11 @@ if(isset($_POST['btntimkiem'])){
 <?php
 if(isset($_POST['btnchitiet'])){
     $_SESSION["mapb"]=$_POST["txttimkiem"];
+<<<<<<< HEAD
     header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/chitietphongban/chitietphongban.php');
+=======
+    header('Location: http://localhost/QuanLyTrangThietBi/Linh/chitietphongban/chitietphongban.php');
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 <?php
@@ -32,14 +36,22 @@ if(isset($_POST['btntimkiem'])){
 </head>
 <body>
 <?php 
+<<<<<<< HEAD
 require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
+=======
+require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai.php'
+>>>>>>> 1729ad7 (đạt)
 ?>
 <form action="" method="post" style="flex:1;">
 <input type="text" name="loaipm" id="loaipm" style="position: fixed; visibility: hidden">
     <div class="content">
         <div class="thanhtren">
             <h5 style="color: rgb(0, 172, 0);">DANH SÁCH CÁC PHÒNG BAN</h5>
+<<<<<<< HEAD
             <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+=======
+            <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+>>>>>>> 1729ad7 (đạt)
         </div>
         <div class="thanhctrl" style="padding-right: 50px;">
             <div style="display: flex; background-color: white; border: 1px solid rgb(207, 207, 207);" >

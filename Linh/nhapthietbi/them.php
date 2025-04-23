@@ -35,11 +35,19 @@ try{
             } 
             echo "<script>alert('Tạo phiếu thành công!')</script>";
             if($_SESSION['userrole']=="admin"){
+<<<<<<< HEAD
                 echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thietbiphongban/phongban.php';</script>";
             }else echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thietbiphongban_user/phongban.php';</script>";
             }else{
         echo "<script>alert('Hãy nhập số lượng!')</script>";
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php';</script>";
+=======
+                echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thietbiphongban/phongban.php';</script>";
+            }else echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thietbiphongban_user/phongban.php';</script>";
+            }else{
+        echo "<script>alert('Hãy nhập số lượng!')</script>";
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php';</script>";
+>>>>>>> 1729ad7 (đạt)
         
         }
         

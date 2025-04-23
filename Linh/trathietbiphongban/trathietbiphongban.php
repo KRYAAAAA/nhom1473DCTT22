@@ -15,8 +15,13 @@ if(isset($_POST['xnthem'])){
 <?php
 if(isset($_POST['huy'])){
     if($_SESSION['userrole']=="admin"){
+<<<<<<< HEAD
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thietbiphongban/phongban.php';</script>";
     }else echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thietbiphongban_user/phongban.php';</script>";
+=======
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thietbiphongban/phongban.php';</script>";
+    }else echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thietbiphongban_user/phongban.php';</script>";
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 <?php

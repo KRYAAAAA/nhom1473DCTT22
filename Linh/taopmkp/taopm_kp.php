@@ -20,7 +20,11 @@ if(isset($_POST['huy'])){
 ?>
 <?php
 // Ngày bắt đầu (1/6/2024)
+<<<<<<< HEAD
 $start_date = strtotime('2025-03-01');
+=======
+$start_date = strtotime('2024-06-01');
+>>>>>>> 1729ad7 (đạt)
 
 // Ngày hiện tại
 $current_date = time();

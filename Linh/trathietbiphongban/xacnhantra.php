@@ -16,10 +16,17 @@ try{
     $mp=$_POST["maphieu"];
     echo "<script>alert('Trả thiết bị thành công!')</script>";
     if($_SESSION['userrole']=="admin"){
+<<<<<<< HEAD
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thietbiphongban/phongban.php';</script>";
     }else {
         
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thietbiphongban_user/phongban.php';</script>";
+=======
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thietbiphongban/phongban.php';</script>";
+    }else {
+        
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thietbiphongban_user/phongban.php';</script>";
+>>>>>>> 1729ad7 (đạt)
     }
 }catch(Exception $e){
     echo "<script>alert('Lỗi xác nhận!')</script>";

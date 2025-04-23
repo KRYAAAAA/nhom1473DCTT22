@@ -12,12 +12,20 @@ $sql = "SELECT thietbiphongban.*, SUM(thietbiphongban.soluong) AS soluong, thiet
 
 <?php
 if(isset($_POST['nhapthietbi'])){
+<<<<<<< HEAD
     header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php');  
+=======
+    header('Location: http://localhost/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php');  
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 <?php
 if(isset($_POST['trathietbi'])){
+<<<<<<< HEAD
     header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/trathietbiphongban/trathietbiphongban.php');  
+=======
+    header('Location: http://localhost/QuanLyTrangThietBi/Linh/trathietbiphongban/trathietbiphongban.php');  
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 

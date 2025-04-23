@@ -8,4 +8,7 @@ function hienthimp(){
         })
     })
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1729ad7 (đạt)

@@ -18,10 +18,17 @@ try{
             }
         } 
         echo "<script>alert('Thanh lý thành công!')</script>";
+<<<<<<< HEAD
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thongke/thongke.php';</script>";
         }else{
     echo "<script>alert('Hãy nhập số lượng!')</script>";
     echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php';</script>";
+=======
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thongke/thongke.php';</script>";
+        }else{
+    echo "<script>alert('Hãy nhập số lượng!')</script>";
+    echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php';</script>";
+>>>>>>> 1729ad7 (đạt)
     }
 }catch (Exception $e) {
     echo "<script>alert('Lỗi thanh lý!')</script>";

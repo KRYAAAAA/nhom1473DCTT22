@@ -21,13 +21,21 @@ if(isset($_POST['btntimkiem'])){
 </head>
 <body>
 <?php 
+<<<<<<< HEAD
 require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
+=======
+require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai.php'
+>>>>>>> 1729ad7 (đạt)
 ?>
 <form action="" method="post" style="flex:1;">
 <div class="content">
     <div class="thanhtren">
         <h5 style="color: rgb(0, 172, 0);">NHẬT KÝ HOẠT ĐỘNG</h5>
+<<<<<<< HEAD
         <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+=======
+        <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+>>>>>>> 1729ad7 (đạt)
     </div>
     <div class="thanhctrl" style="padding-right: 350px;">
         <div>

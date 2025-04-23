@@ -7,12 +7,20 @@ $sql = "SELECT thietbiphongban.*, SUM(thietbiphongban.soluong) AS soluong, thiet
 
 <?php
 if(isset($_POST['nhapthietbi'])){
+<<<<<<< HEAD
     header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php');  
+=======
+    header('Location: http://localhost/QuanLyTrangThietBi/Linh/nhapthietbi/nhapthietbi.php');  
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 <?php
 if(isset($_POST['trathietbi'])){
+<<<<<<< HEAD
     header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/trathietbiphongban/trathietbiphongban.php');  
+=======
+    header('Location: http://localhost/QuanLyTrangThietBi/Linh/trathietbiphongban/trathietbiphongban.php');  
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 
@@ -40,13 +48,21 @@ if(isset($_POST['btntimkiem'])){
 </head>
 <body style="background-color: rgb(223, 223, 223);">
 <?php 
+<<<<<<< HEAD
 require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai2.php'
+=======
+require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai2.php'
+>>>>>>> 1729ad7 (đạt)
 ?>
 <form action="" method="post" style="flex:1;">
 <div class="content"> 
     <div class="thanhtren">
         <h5 style="color: rgb(0, 172, 0);">DANH SÁCH THIẾT BỊ PHÒNG BAN</h5>
+<<<<<<< HEAD
         <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+=======
+        <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+>>>>>>> 1729ad7 (đạt)
     </div>
     <div class="thanhctrl" style="padding-right: 50px;margin-top:1%; ">
         <div style="display: flex; background-color: white; border: 1px solid rgb(207, 207, 207);" >

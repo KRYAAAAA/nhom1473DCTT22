@@ -8,6 +8,10 @@
         $sql = "INSERT INTO nhatkyhd(macb,hoatdong,thoigian) VALUES ('$macb','$hoatdong','$thoigian')" ;
         $conn->query($sql);
         echo "<script>alert('Xác nhận ghi mượn thành công!')</script>";
+<<<<<<< HEAD
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/muontra_admin/muontra_admin.php';</script>";           
+=======
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/muontra_admin/muontra_admin.php';</script>";           
+>>>>>>> 1729ad7 (đạt)
     }
 ?>

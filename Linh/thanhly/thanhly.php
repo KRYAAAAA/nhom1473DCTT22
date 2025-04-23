@@ -30,7 +30,11 @@ if(isset($_POST['xacnhan'])){
 ?>
 <?php
 if(isset($_POST['huy'])){
+<<<<<<< HEAD
         echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/thongke/thongke.php';</script>";
+=======
+        echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/thongke/thongke.php';</script>";
+>>>>>>> 1729ad7 (đạt)
 }
 ?>
 <!DOCTYPE html>

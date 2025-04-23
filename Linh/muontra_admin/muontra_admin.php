@@ -15,10 +15,17 @@ if(isset($_POST['btnchitiet'])){
     $_SESSION["maphieu"] = $_POST["txttimkiem"];
     $mp=$_SESSION["maphieu"];
     if($_POST['loaipm'] === "mượn kho/phòng"){
+<<<<<<< HEAD
         header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/xempmkp/xempm_kp.php');
     }
     if($_POST['loaipm'] === "mượn thiết bị"){
         header('Location: http://qlttb.com/QuanLyTrangThietBi/Hieu/xempmtb/xempm_tb.php');      
+=======
+        header('Location: http://localhost/QuanLyTrangThietBi/Linh/xempmkp/xempm_kp.php');
+    }
+    if($_POST['loaipm'] === "mượn thiết bị"){
+        header('Location: http://localhost/QuanLyTrangThietBi/Hieu/xempmtb/xempm_tb.php');      
+>>>>>>> 1729ad7 (đạt)
     } 
     if($_POST['loaipm'] === "yêu cầu nhập thiết bị"){
         $sqlpb="SELECT * FROM phieunhaptb WHERE maphieu ='$mp'; " ;
@@ -28,7 +35,11 @@ if(isset($_POST['btnchitiet'])){
                 $_SESSION["mapb"]=$row["mapb"];
             }
 
+<<<<<<< HEAD
         header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/xemphieunhaptb/xempm_tb.php');      
+=======
+        header('Location: http://localhost/QuanLyTrangThietBi/Linh/xemphieunhaptb/xempm_tb.php');      
+>>>>>>> 1729ad7 (đạt)
         }
     } 
 }
@@ -48,7 +59,11 @@ if(isset($_POST['btnchitiet'])){
 </head>
 <body>
 <?php 
+<<<<<<< HEAD
 require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
+=======
+require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai.php'
+>>>>>>> 1729ad7 (đạt)
 ?>
 <form action="" method="post" style="flex:1;">
 <input type="text" name="loaipm" id="loaipm" style="position: fixed; visibility: hidden">
@@ -56,7 +71,11 @@ require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
 <div class="content">
     <div class="thanhtren">
         <h5 style="color: rgb(0, 172, 0);">QUẢN LÝ THÔNG TIN MƯỢN TRẢ</h5>
+<<<<<<< HEAD
         <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+=======
+        <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+>>>>>>> 1729ad7 (đạt)
     </div>
     <div class="thanhctrl" style="padding-right: 50px;">
         <div>

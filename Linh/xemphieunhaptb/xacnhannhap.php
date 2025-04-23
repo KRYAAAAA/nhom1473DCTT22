@@ -16,7 +16,11 @@ try{
     $mp=$_POST["maphieu"];
     $sql="UPDATE dsphieumuon SET tinhtrang='Đã xác nhận' WHERE maphieu='$mp'";
     echo "<script>alert('Xác nhận bàn giao thành công!')</script>";
+<<<<<<< HEAD
     echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/muontra_admin/muontra_admin.php';</script>";
+=======
+    echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Linh/muontra_admin/muontra_admin.php';</script>";
+>>>>>>> 1729ad7 (đạt)
 }catch(Exception $e){
     echo "<script>alert('Lỗi xác nhận!')</script>";
 }
