@@ -1,3 +1,11 @@
 <?php
-$con=mysqli_connect('localhost','root','','QuanLyTrangThietBi') or die('Lỗi kết nối');
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "quanlytrangthietbi";
+
+$con = new mysqli($servername, $username, $password, $dbname);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
+}
 ?>
