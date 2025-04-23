@@ -43,13 +43,13 @@ if(isset($_POST['btnxoa'])){
 </head>
 <body>
 <?php 
-require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai.php'
+require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai.php'
 ?>
 <form action="" method="post" style="flex:1;">
 <div class ="noidung">
     <div class="thanhtren">
             <h5 style="color: rgb(0, 172, 0);">QUẢN LÝ TÀI KHOẢN</h5>
-            <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+            <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
     </div>
     <div class ="nhap">
         <label for="">Mã cán bộ</label> <br>

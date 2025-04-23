@@ -14,21 +14,21 @@ require_once 'timkiem.php';
 if(isset($_POST['btnchitiet'])){
     $_SESSION["maphieu"] = $_POST["txttimkiem"];
     if($_POST['loaipm'] === "mượn kho/phòng"){
-        header('Location: http://localhost/QuanLyTrangThietBi/Duc/xempmkp_user/xempm_kp.php');
+        header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/xempmkp_user/xempm_kp.php');
     }
     else{
-        header('Location: http://localhost/QuanLyTrangThietBi/Linh/xempmtb_user/xempm_tb.php');      
+        header('Location: http://qlttb.com/QuanLyTrangThietBi/Hieu/xempmtb_user/xempm_tb.php');      
     } 
 }
 ?>
 <?php 
 if(isset($_POST['muonkp'])){
-    header('Location: http://localhost/QuanLyTrangThietBi/Duc/taopmkp/taopm_kp.php');  
+    header('Location: http://qlttb.com/QuanLyTrangThietBi/Linh/taopmkp/taopm_kp.php');  
 }
 ?>
 <?php 
 if(isset($_POST['muontb'])){
-    header('Location: http://localhost/QuanLyTrangThietBi/Linh/taopmtb/taopm_tb.php');  
+    header('Location: http://qlttb.com/QuanLyTrangThietBi/Hieu/taopmtb/taopm_tb.php');  
 }
 ?>
 <!DOCTYPE html>
@@ -44,14 +44,14 @@ if(isset($_POST['muontb'])){
 </head>
 <body>
 <?php 
-require_once 'C:\xampp\htdocs\QuanLyTrangThietBi\menutrai2.php'
+require_once '/opt/lampp/htdocs/QuanLyTrangThietBi/menutrai2.php'
 ?>
 <form action="" method="post" style="flex:1;">
 <input type="text" name="loaipm" id="loaipm" style="position: fixed; visibility: hidden">
     <div class="content">
         <div class="thanhtren">
             <h5 style="color: rgb(0, 172, 0);">QUẢN LÝ THÔNG TIN MƯỢN TRẢ</h5>
-            <a href="http://localhost/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
+            <a href="http://qlttb.com/QuanLyTrangThietBi/login/login.php" style="color: gray" onclick="return confirm('Bạn có muốn đăng xuất không')">Đăng xuất</a>
         </div>
         <div class="thanhctrl" style="padding-right: 50px;">
             <div>

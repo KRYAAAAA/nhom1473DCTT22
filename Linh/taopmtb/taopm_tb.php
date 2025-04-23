@@ -39,7 +39,7 @@ if(isset($_POST['huy'])){
 ?>
 <?php
 // Ngày bắt đầu (1/6/2024)
-$start_date = strtotime('2024-06-01');
+$start_date = strtotime('2025-03-01');
 
 // Ngày hiện tại
 $current_date = time();
@@ -75,7 +75,7 @@ $day_of_week = date('w', $current_date);
                 <ul class="dropdown-menu">
                     <?php 
                     for($i=0; $i <= $week_number; $i++){
-                        echo "<li class='dropdown-item'><input disabled type='checkbox' id='' value='".$i."' name='tuan[]'>&nbsp Tuần ".$i."</li>";
+                        echo "<li class='dropdown-item'><input type='checkbox' id='' value='".$i."' name='tuan[]'>&nbsp Tuần ".$i."</li>";
                     }
                     for($i=$week_number+1; $i <= 12; $i++){
                         echo "<li class='dropdown-item'><input type='checkbox' id='' value='".$i."' name='tuan[]'>&nbsp Tuần ".$i."</li>";
@@ -141,5 +141,6 @@ $day_of_week = date('w', $current_date);
         </div>  
 </div>
 </form>
+
 </body>
 </html>

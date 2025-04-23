@@ -8,6 +8,6 @@ if(isset($_POST['maphieu'])){
     $sql = "INSERT INTO nhatkyhd(macb,hoatdong,thoigian) VALUES ('$macb','$hoatdong','$thoigian')" ;
     $conn->query($sql);
     echo "<script>alert('Xác nhận trả thành công!')</script>";
-    echo "<script>window.location.href = 'http://localhost/QuanLyTrangThietBi/Duc/muontra_admin/muontra_admin.php';</script>";
+    echo "<script>window.location.href = 'http://qlttb.com/QuanLyTrangThietBi/Linh/muontra_admin/muontra_admin.php';</script>";
 }
 ?>
