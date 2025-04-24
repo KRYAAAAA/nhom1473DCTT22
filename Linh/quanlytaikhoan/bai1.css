@@ -1,0 +1,40 @@
+img{
+    height: 90%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color: black;
+}
+.menutrai{ 
+    background-color:rgb(32, 32, 81) ;
+    width: fit-content;
+    height: 100vh;
+}
+.noidung{
+    position: fixed;   
+    background-color:rgb(228, 226, 224);
+    height: 100vh;
+    flex: 1;
+}
+.thanhtren{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: gray 0px 0px 5px;
+}
+.nhap{
+    display: inline-block   ;
+    margin-left: 20px;
+    margin-top: 10px;
+}
