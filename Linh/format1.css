@@ -1,0 +1,60 @@
+img{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menutrai{
+    display: inline-block;
+    color: white;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(31, 37, 56) ;
+    box-shadow: 0px 0px 5px gray;
+}
+.menutrai>ul{
+    padding-left: 0;
+}
+.menutrai>ul>li{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: 1px solid rgb(26, 39, 87);
+    list-style: none;
+    height: 50px;
+    font-size: 120%;
+}
+.menutrai>ul>li:hover{
+    background-color: rgb(59, 65, 87);
+}
+.content{
+    flex: 1;
+    max-height: 100vh;
+}
+.thanhtren{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: gray 0px 0px 5px;
+}
+.thanhctrl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table{
+    overflow: scroll;
+}
