@@ -1,0 +1,56 @@
+img{
+    height: 90%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.menutrai{
+    display: inline-block;
+    color: white;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(31, 37, 56) ;
+}
+.menutrai>ul{
+    padding-left: 0;
+}
+.menutrai>ul>li{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: 1px solid rgb(26, 39, 87);
+    list-style: none;
+    height: 50px;
+    font-size: 120%;
+}
+.menutrai>ul>li:hover{
+    background-color: rgb(59, 65, 87);
+}
+.noidung{
+    position: fixed;   
+    background-color:rgb(228, 226, 224);
+    height: 100vh;
+    width: calc(100vw - 200px);
+}
+.thanhtren{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: gray 0px 0px 5px;
+}
+.nhap{
+    display: inline-block   ;
+    margin-left: 20px;
+    margin-top: 10px;
+}
